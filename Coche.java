@@ -13,13 +13,3 @@ public class Coche {
         return numPuertas;
     }
 }
-
-public class main {
-    public static void main(String[] args) {
-        Coche miCoche = new Coche();
-
-        miCoche.incrementarPuertas();
-
-        System.out.println("El número de puertas del coche es: " + miCoche.getNumPuertas());
-    }
-}
